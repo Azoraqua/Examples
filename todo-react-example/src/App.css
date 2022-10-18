@@ -1,0 +1,66 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 1em;
+}
+
+table {
+  width: 100%;
+  border-bottom: 1px solid #111;
+  margin-bottom: .5em;
+}
+
+th, td {
+border: 1px solid #111;
+}
+
+th {
+  font-size: 1.25em;
+  padding: .5em;
+  background-color: lightblue;
+}
+
+td {
+  padding: .5em;
+  text-align: center;
+}
+
+thead th:nth-child(3) {
+  display: none;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tbody td:nth-child(1) {
+  width: 80%;
+}
+
+tbody td:nth-child(2) {
+  width: 10%;
+  font-size: xx-large;
+}
+
+tbody td:nth-child(3) {
+  width: 10%;
+}
+
+form {
+  width: 100%;
+}
+
+form input {
+  width: 80%;
+}
+
+form button {
+  width: 20%;
+  background-color: lightgreen;
+}
+
+input, button {
+  padding: 1em;
+}
