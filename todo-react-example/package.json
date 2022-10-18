@@ -2,7 +2,7 @@
   "name": "todo-react-example",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./",
+  "homepage": "https://azoraqua.github.io/Examples",
   "type": "module",
   "scripts": {
     "dev": "vite",
